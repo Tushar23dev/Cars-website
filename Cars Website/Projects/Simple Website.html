@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/SOURCE/Css.css">
+    <script src="/SOURCE/javasript.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm sticky-top bg-dark  ">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand  text-info h5 mt-2">
+                <img src="/SOURCE/Logo's/cars.png" style="width: 140px; height: 35px;">
+            </a>
+            <button type="button" class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#colnav1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse show" id="colnav1">
+                <ul class="navbar-nav  nav-justified   h5">
+                    <li class="nav-item"><a href="" class="nav-link text-white ms-3 ">Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white ms-4">Cars</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white ms-5" style="width: 125px;">Sports
+                            Cars</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white ms-4">Bike</a></li>
+                    <li class="nav-item dropdown h5"><a href="#" class="nav-link text-white dropdown-toggle ms-4"
+                            data-bs-toggle="dropdown">Videos</a>
+                        <ul class="dropdown-menu   text-center bg-info ">
+                            <li class=" "><a href=""
+                                    class="dropdown-header  text-danger text-decoration-none h4 "><big>Reviews</big></a>
+                            </li>
+                            <li class=" "><a href=""
+                                    class="dropdown-item  text-decoration-none h6 "><big>Ratings</big></a>
+                            </li>
+                            <li class=" "><a href=""
+                                    class="dropdown-item  text-decoration-none h6 "><big>Animation</big></a></li>
+                            <li class=" "><a href=""
+                                    class="dropdown-item  text-decoration-none h6 "><big>Horror</big></a></li>
+                            <li class=" "><a href=""
+                                    class="dropdown-item  text-decoration-none h6 "><big>Action</big></a></li>
+                            <li class=" "><a href=""
+                                    class="dropdown-item  text-decoration-none h6 "><big>Comedy</big></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link text-white ms-4">About</a></li>
+
+                </ul>
+
+                <div class="mx-auto">
+                    <form class="d-flex ms-5">
+                        <input type="text" name="searchbar" class="form-control  me-2" id="searchbar1"
+                            placeholder=" Search...." style="width: 350px;">
+                        <button href="" class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+    <!-- Navbar Finished -->
+
+    <!--Carousel Started  -->
+
+    <div class="container- ">
+        <div class="carousel slide " data-bs-ride="carousel" id="demos">
+
+            <!-- Caroudel buttons -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="demos" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="demos" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="demos" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- Carousel Inner -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/SOURCE/Wallpaper/pexels-cesar-perez-733745.jpg" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="/SOURCE/Wallpaper/pexels-aleksandar-pasaric-4512439.jpg" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="/SOURCE/Wallpaper/pexels-neil-kelly-712618.jpg" alt="" class="d-block w-100">
+                </div>
+
+            </div>
+
+            <!-- Carousel arrows -->
+            <button type="button" class="carousel-control-prev" data-bs-target="#demos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon "></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#demos" data-bs-slide="next">
+                <span class="carousel-control-next-icon "></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Carousel Finished -->
+
+    <!-- Toggleable tabs -->
+
+    <div class="container mt-5">
+        <h4 class="p-2">Featured Cars</h4>
+
+        <div class="row  p-3">
+            <ul class="nav nav-tabs    justify-content-between">
+                <li class="nav-item h5"><a href="#con-1 " class="nav-link text-dark  " data-bs-toggle="tab">Trending</a>
+                </li>
+                <li class="nav-item h5"><a href="#con-2" class="nav-link text-dark" data-bs-toggle="tab">Popular </a>
+                </li>
+                <li class="nav-item h5"><a href="#con-3" class="nav-link text-dark " data-bs-toggle="tab">Upcoming</a>
+                </li>
+                <li class="nav-item h5 dropdown"><a href="#" class="nav-link text-dark dropdown-toggle"
+                        data-bs-togg="tab" data-bs-toggle="dropdown">Bikes</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-header text-decoration-none">Action</a> </li>
+                        <li><a href="" class="dropdown-item">Fast and Furious</a></li>
+                        <li><a href="" class="dropdown-item">Mechanics</a></li>
+                        <li><a href="" class="dropdown-item">Jason Bourne</a></li>
+                    </ul>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab-content row border  mt-1">
+            <div class="container bg-light text-dark tab-pane fade show  " id="con-1">
+                <div class="row border rounded  p-3">
+                    <div class="card col-sm-3  ">
+                        <div class="card-header ">
+                            <!-- <h5> </h5> -->
+                        </div>
+                        <div class="card card-img-top ">
+                            <img src="/SOURCE/Logo's/Tata punch.webp" class="img-thumbnail" alt="">
+                        </div>
+                        <div class="card-body ">
+                            <p class="lead"><strong>Tata Punch</strong> </p>
+                            <p class=""><strong><big> Rs. 6.00 lakh</big></strong> <small>Onwards</small>
+                            </p>
+                            <small>Average ex showroom price</small>
+                            <button class="btn btn-outline-success mt-2 h6"><strong>Show Price in my
+                                    city</strong></button>
+
+                        </div>
+                        <div class="card-footer">
+                            <!-- <button class="btn btn-primary">See Profile</button> -->
+                        </div>
+                    </div>
+
+                    <div class="card col-sm-3  ">
+                        <div class="card-header ">
+                            <!-- <h5> </h5> -->
+                        </div>
+                        <div class="card card-img-top ">
+                            <img src="/SOURCE/Logo's/hyundai creata.webp" class="img-thumbnail" alt="">
+                        </div>
+                        <div class="card-body ">
+                            <p class="lead"><strong>Hyundai Creata</strong> </p>
+                            <p class=""><strong><big> Rs. 8.00 lakh</big></strong> <small>Onwards</small>
+                            </p>
+                            <small>Average ex showroom price</small>
+                            <button class="btn btn-outline-success mt-2 h6"><strong>Show Price in my
+                                    city</strong></button>
+
+                        </div>
+                        <div class="card-footer">
+                            <!-- <button class="btn btn-primary">See Profile</button> -->
+                        </div>
+                    </div>
+                    <div class="card col-sm-3  ">
+                        <div class="card-header ">
+                            <!-- <h5> </h5> -->
+                        </div>
+                        <div class="card card-img-top ">
+                            <img src="/SOURCE/Logo's/Tata nexon.webp" class="img-thumbnail" alt="">
+                        </div>
+                        <div class="card-body ">
+                            <p class="lead"><strong>Tata Nexon</strong> </p>
+                            <p class=""><strong><big> Rs. 10.00 lakh</big></strong> <small>Onwards</small>
+                            </p>
+                            <small>Average ex showroom price</small>
+                            <button class="btn btn-outline-success mt-2 h6"><strong>Show Price in my
+                                    city</strong></button>
+
+                        </div>
+                        <div class="card-footer">
+                            <!-- <button class="btn btn-primary">See Profile</button> -->
+                        </div>
+                    </div>
+                    <div class="card col-sm-3  ">
+                        <div class="card-header ">
+                            <!-- <h5> </h5> -->
+                        </div>
+                        <div class="card card-img-top ">
+                            <img src="/SOURCE/Logo's/Mahindra xuv 700.webp" class="img-thumbnail" alt="">
+                        </div>
+                        <div class="card-body ">
+                            <p class="lead"><strong>Mahindra XUV 700</strong> </p>
+                            <p class=""><strong><big> Rs. 12.00 lakh</big></strong> <small>Onwards</small>
+                            </p>
+                            <small>Average ex showroom price</small>
+                            <button class="btn btn-outline-success mt-2 h6"><strong>Show Price in my
+                                    city</strong></button>
+
+                        </div>
+                        <div class="card-footer">
+                            <!-- <button class="btn btn-primary">See Profile</button> -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane container bg-warning  fade text-black p-5 " id="con-2">
+                <h3 class="text-opacity-50"> Most Viewed</h3>
+                <p class="h5 text-opacity-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <div class="tab-pane container bg-danger  fade text-black p-5 " id="con-3">
+                <h3 class="text-opacity-50"> Top Rated </h3>
+                <p class="h5 text-opacity-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!--  -->
+
+    <!-- All Brands -->
+
+    <div class="container mt-5  bg-light">
+        <h4>All Brands</h4>
+        <div class="row  p-2">
+            <a href="" class="col-sm-2  text-decoration-none text-black  ">
+                <img src="/SOURCE/Brands/maruti-suzuki.jpg" class="img-thumbnail " alt="">
+                <p class="text-center">Suzuki</p>
+            </a>
+            <a href="" class="col-sm-2  text-decoration-none text-black  ">
+                <img src="/SOURCE/Brands/tata.jpg" class="img-thumbnail" alt="">
+                <p class="text-center">Tata</p>
+            </a>
+            <a href="" class="col-sm-2  text-decoration-none text-black  ">
+                <img src="/SOURCE/Brands/hyundai.jpg" class="img-thumbnail" alt="">
+                <p class="text-center">Hyundai</p>
+            </a>
+            <a href="" class="col-sm-2  text-decoration-none text-black  ">
+                <img src="/SOURCE/Brands/toyota.jpg" class="img-thumbnail" alt="">
+                <p class="text-center">Toyota</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/mahindra.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Mahindra</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/bmw.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">BMW</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/kia.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">KIA</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/mercedes-benz.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Mercedes-Benz</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/land-rover1647236056893.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Land Rover</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/skoda1681982956420.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">SKODA</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/mg.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">MG</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/honda.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Honda</p>
+            </a>
+        </div>
+        <div class="row collapse  p-2 " id="brand">
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/audi.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Audii</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/jaguar.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Jaguar</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/volvo.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Volvo</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/porsche.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Porsche</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/citroen1649763818937.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Citroen</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/lamborghini.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Lamborghini</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/volkswagen.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Volkswagen</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/jeep.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Jeep</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/nissan.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Nissan</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/lexus.png" class="img-thumbnail" alt="">
+                <p class="text-center ">Lexus</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/ferrari.png" class="img-thumbnail" alt="">
+                <p class="text-center ">Ferrari</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/renault.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Renault</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/rolls-royce.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">Rolls-Royce</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/mini.png" class="img-thumbnail" alt="">
+                <p class="text-center ">MINI</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/gph63sa_1483779.png" class="img-thumbnail" alt="">
+                <p class="text-center ">Maserati</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/byd1650348943682.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">BYD</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/aston-martin.png" class="img-thumbnail" alt="">
+                <p class="text-center ">Aston Martin</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/force-motors.png" class="img-thumbnail" alt="">
+                <p class="text-center ">Force Motors</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/isuzu.png" class="img-thumbnail" alt="">
+                <p class="text-center ">Isuzu</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/mclaren1649762557086.jpg" class="img-thumbnail" alt="">
+                <p class="text-center ">McLaren</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/bentley.png" class="img-thumbnail" alt="">
+                <p class="text-center ">Bentley</p>
+            </a>
+            <a href="/" class="col-sm-2  text-decoration-none text-black">
+                <img src="/SOURCE/Brands/bugatti.png" class="img-thumbnail" alt="">
+                <p class="text-center ">Bugatti</p>
+            </a>
+        </div>
+        <a href="/" class="col-   text-decoration-none text-black" data-bs-toggle="collapse" data-bs-target="#brand">
+            <p class="text-center text-bg-danger border pb-5 pt-3  " style="height: 14px;">See More</p>
+        </a>
+    </div>
+
+    <div class="container">
+        <h4 class="mt-5">Find The Cars of Your Choice</h4>
+        <div class="row bg-secondary rounded p-2">
+            <ul class="nav nav-tabs rounded justify-content-sm-start text-bg-info">
+                <li class="nav-item small "><a href="#budget " class="nav-link text-dark text-uppercase "
+                        data-bs-toggle="tab">budget</a></li>
+                <li class="nav-item small"><a href="#body_type" class="nav-link text-dark text-uppercase"
+                        data-bs-toggle="tab">Body type</a></li>
+                <li class="nav-item small"><a href="#fuel_type" class="nav-link text-dark text-uppercase "
+                        data-bs-toggle="tab">fuel type</a>
+                </li>
+                <li class="nav-item small dropdown"><a href="#transmission"
+                        class="nav-link text-dark text-uppercase dropdown-toggles" data-bs-toggle="tab"
+                        data-bs-toggle="dropdown">Transmission</a>
+                    <!-- <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-header text-decoration-none">Action</a> </li>
+                        <li><a href="" class="dropdown-item">Fast and Furious</a></li>
+                        <li><a href="" class="dropdown-item">Mechanics</a></li>
+                        <li><a href="" class="dropdown-item">Jason Bourne</a></li>
+                    </ul> -->
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab-content row border  mt-1">
+            <div class="container bg-light text-dark tab-pane fade  " id="budget">
+                <div class="row  bg-light p-1">
+                    <div href="" class="col text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>Under 5 Lakh</small></a>
+                    </div>
+                    <div href="" class="col  text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>Under 7 Lakh</small></a>
+                    </div>
+                    <div href="" class="col  text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>Under 10 Lakh</small></a>
+                    </div>
+                    <div href="" class="col  text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>Under 12 Lakh</small></a>
+                    </div>
+                    <div href="" class="col  text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>Under 15 Lakh</small></a>
+                    </div>
+                    <div href="" class="col  text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>Under 17 Lakh</small></a>
+                    </div>
+                </div>
+                <div class="row  bg-light-subtle p-1">
+                    <div href="" class="col text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>Under 20 Lakh</small></a>
+                    </div>
+                    <div href="" class="col  text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>Under 22 Lakh</small></a>
+                    </div>
+                    <div href="" class="col  text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>Under 25 Lakh</small></a>
+                    </div>
+                    <div href="" class="col  text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>Under 27 Lakh</small></a>
+                    </div>
+                    <div href="" class="col  text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>Under 30 Lakh</small></a>
+                    </div>
+                    <div href="" class="col  text-center p-4 ">
+                        <a href="" class="btn btn-outline-success    rounded-pill"><small>&nbsp; Luxury
+                                Cars&nbsp;</small></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane container bg-warning  fade text-black p-5 " id="body_type">
+                <h3 class="text-opacity-50"> Most Viewed</h3>
+                <p class="h5 text-opacity-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <div class="tab-pane container bg-danger  fade text-black p-5 " id="fuel_type">
+                <h3 class="text-opacity-50"> Top Rated </h3>
+                <p class="h5 text-opacity-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="tab-pane container bg-danger  fade text-black p-5 " id="transmission">
+                <h3 class="text-opacity-50"> Top Rated </h3>
+                <p class="h5 text-opacity-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+
+
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid p-1" style="background-color:rgba(10, 24, 71, 0.942)">
+            <div class="row  ">
+                <div class="col  text-center p-1">
+                    <a href=""> <img src="/SOURCE/Footer/carwale.png" class="rounded-pill" alt=""
+                            style="width: 120px;"></a>
+                </div>
+                <div class="col  text-center p-1">
+                    <a href=""> <img src="/SOURCE/Footer/cartrade.png" class="rounded-pill" alt=""
+                            style="width: 120px;"></a>
+                </div>
+                <div class="col  text-center p-1">
+                    <a href=""> <img src="/SOURCE/Footer/bikewale.png" class="rounded-pill" alt=""
+                            style="width: 120px;"></a>
+                </div>
+                <div class="col  text-center p-1">
+                    <a href=""> <img src="/SOURCE/Footer/Mobility Outlook.png" class="rounded-pill" alt=""
+                            style="width: 120px;"></a>
+                </div>
+                <div class="col  text-center p-1">
+                    <a href=""> <img src="/SOURCE/Footer/carwale qt share2.png" class="rounded-pill" alt=""
+                            style="width: 120px;"></a>
+                </div>
+                <hr class=" text-white">
+            </div>
+            <div class="row p-2">
+                <div class="col-sm-2  p-5">
+                    <p class="text-white"></p>
+                </div>
+                <div class="col-sm-4 border-end p-5">
+                    <p class="text-white small">Language : English &nbsp; <a href=""
+                            class="text-decoration-none text-light"> हिंदी </a></p>
+                    <div class="row">
+                        <a href="" class="col text-white text-decoration-none small">About Us</a>
+                        <a href="" class="col text-white text-decoration-none small">Terms and Condition</a>
+                    </div>
+                    <div class="row mt-3">
+                        <a href="" class="col text-white text-decoration-none small">Carrers</a>
+                        <a href="" class="col text-white text-decoration-none small">Advertise</a>
+                    </div>
+                    <div class="row mt-3">
+                        <a href="" class="col text-white text-decoration-none small">Tushar Thorat</a>
+                        <a href="" class="col text-white text-decoration-none small">tusharathorat@gmail.com</a>
+                    </div>
+                    <div class="row mt-3">
+                        <a href="" class="col text-white text-decoration-none small">Mob: 9136724198</a>
+                        <a href="" class="col text-white text-decoration-none small">7045774501</a>
+                    </div>
+                </div>
+                <div class="col-sm-4 p-5   ms-1">
+
+                    <a class="text-white small text-decoration-none">Download Mobile App</a>
+                    <div class="row">
+                        <div class="col  p-2">
+                            <a href=""> <img src="https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/app-store.svg?v2"
+                                    class="mt-1" alt="" style="width: 150px;"></a>
+                        </div>
+                        <div class="col  p-2">
+                            <a href=""><img src="https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/play-store.svg?v2"
+                                    class="mt-1" alt="" style="width: 168px;"></a>
+                        </div>
+                        <p class="text-white small mt-2">Connect With Us</p>
+                        <div class="row">
+                            <div class="col">
+                                <a href=""><img src="/SOURCE/Footer/links/facebook.png" class="img-thumbnail " alt=""
+                                        width="40px"></a>
+                                <a href="" class="ms-2"><img src="/SOURCE/Footer/links/instagram.png"
+                                        class="img-thumbnail " alt="" width="40px"></a>
+                                <a href="" class="ms-2"><img src="/SOURCE/Footer/links/youtube.png"
+                                        class="img-thumbnail " alt="" width="40px"></a>
+                                <a href="" class="ms-2"><img src="/SOURCE/Footer/links/linkedin.png"
+                                        class="img-thumbnail " alt="" width="40px"></a>
+                                <a href="" class="ms-2"><img src="/SOURCE/Footer/links/skype.png" class="img-thumbnail "
+                                        alt="" width="40px"></a>
+
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <div class="row  p-2">
+                <div class="col border p-2 text-center opacity-50">
+                    <p class="text-light h4">Contact : <a href="" class="text-decoration-none text-info">carservice@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
